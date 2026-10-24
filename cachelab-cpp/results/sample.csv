@@ -1,0 +1,5 @@
+workload,policy,accesses,hits,misses,evictions,hit_rate,miss_rate,time_us
+traces\sample.trace,LRU,14,5,9,2,0.357143,0.642857,0.1
+traces\sample.trace,FIFO,14,5,9,2,0.357143,0.642857,0.1
+traces\sample.trace,LFU,14,6,8,1,0.428571,0.571429,0.1
+traces\sample.trace,RANDOM,14,6,8,1,0.428571,0.571429,0.4
